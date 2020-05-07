@@ -1,0 +1,1273 @@
+[33mcommit 5752a077cf1e92ef1c818079774ba464222be245[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: wade <vladislav.post.77@gmail.com>
+Date:   Thu May 7 22:17:26 2020 +0300
+
+    final commit
+
+[1mdiff --git a/JavaAppium.iml b/JavaAppium.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..78b2cc5[m
+[1m--- /dev/null[m
+[1m+++ b/JavaAppium.iml[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="JAVA_MODULE" version="4" />[m
+\ No newline at end of file[m
+[1mdiff --git a/apks/Wikipedia.app/AboutViewController.plist b/apks/Wikipedia.app/AboutViewController.plist[m
+[1mnew file mode 100755[m
+[1mindex 0000000..3d852d1[m
+Binary files /dev/null and b/apks/Wikipedia.app/AboutViewController.plist differ
+[1mdiff --git a/apks/Wikipedia.app/AddArticlesToReadingListViewController.nib/objects-11.0+.nib b/apks/Wikipedia.app/AddArticlesToReadingListViewController.nib/objects-11.0+.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..379f55d[m
+Binary files /dev/null and b/apks/Wikipedia.app/AddArticlesToReadingListViewController.nib/objects-11.0+.nib differ
+[1mdiff --git a/apks/Wikipedia.app/AddArticlesToReadingListViewController.nib/runtime.nib b/apks/Wikipedia.app/AddArticlesToReadingListViewController.nib/runtime.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..3e30afe[m
+Binary files /dev/null and b/apks/Wikipedia.app/AddArticlesToReadingListViewController.nib/runtime.nib differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon20x20@2x.png b/apks/Wikipedia.app/AppIcon20x20@2x.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..9043fca[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon20x20@2x.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon20x20@2x~ipad.png b/apks/Wikipedia.app/AppIcon20x20@2x~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..9043fca[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon20x20@2x~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon20x20@3x.png b/apks/Wikipedia.app/AppIcon20x20@3x.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b1152be[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon20x20@3x.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon20x20~ipad.png b/apks/Wikipedia.app/AppIcon20x20~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..03230e7[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon20x20~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon29x29@2x.png b/apks/Wikipedia.app/AppIcon29x29@2x.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..4d8bc5b[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon29x29@2x.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon29x29@2x~ipad.png b/apks/Wikipedia.app/AppIcon29x29@2x~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..4d8bc5b[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon29x29@2x~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon29x29@3x.png b/apks/Wikipedia.app/AppIcon29x29@3x.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..cc04e79[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon29x29@3x.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon29x29~ipad.png b/apks/Wikipedia.app/AppIcon29x29~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..a1f045b[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon29x29~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon40x40@2x.png b/apks/Wikipedia.app/AppIcon40x40@2x.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..41034fd[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon40x40@2x.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon40x40@2x~ipad.png b/apks/Wikipedia.app/AppIcon40x40@2x~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..41034fd[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon40x40@2x~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon40x40@3x.png b/apks/Wikipedia.app/AppIcon40x40@3x.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..623dcb4[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon40x40@3x.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon40x40~ipad.png b/apks/Wikipedia.app/AppIcon40x40~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..9043fca[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon40x40~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon60x60@2x.png b/apks/Wikipedia.app/AppIcon60x60@2x.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..623dcb4[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon60x60@2x.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon60x60@3x.png b/apks/Wikipedia.app/AppIcon60x60@3x.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..03d823f[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon60x60@3x.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon76x76@2x~ipad.png b/apks/Wikipedia.app/AppIcon76x76@2x~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..96c1363[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon76x76@2x~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon76x76~ipad.png b/apks/Wikipedia.app/AppIcon76x76~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..4f0e39a[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon76x76~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppIcon83.5x83.5@2x~ipad.png b/apks/Wikipedia.app/AppIcon83.5x83.5@2x~ipad.png[m
+[1mnew file mode 100755[m
+[1mindex 0000000..23ceaf5[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppIcon83.5x83.5@2x~ipad.png differ
+[1mdiff --git a/apks/Wikipedia.app/AppearanceSettingsViewController.nib b/apks/Wikipedia.app/AppearanceSettingsViewController.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b7e7aff[m
+Binary files /dev/null and b/apks/Wikipedia.app/AppearanceSettingsViewController.nib differ
+[1mdiff --git a/apks/Wikipedia.app/ArticlePopoverViewController.nib b/apks/Wikipedia.app/ArticlePopoverViewController.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..3883ac2[m
+Binary files /dev/null and b/apks/Wikipedia.app/ArticlePopoverViewController.nib differ
+[1mdiff --git a/apks/Wikipedia.app/Assets.car b/apks/Wikipedia.app/Assets.car[m
+[1mnew file mode 100755[m
+[1mindex 0000000..2ea3a82[m
+Binary files /dev/null and b/apks/Wikipedia.app/Assets.car differ
+[1mdiff --git a/apks/Wikipedia.app/BulletedLabel.nib b/apks/Wikipedia.app/BulletedLabel.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..c99fbe5[m
+Binary files /dev/null and b/apks/Wikipedia.app/BulletedLabel.nib differ
+[1mdiff --git a/apks/Wikipedia.app/CreateReadingListViewController.nib/objects-11.0+.nib b/apks/Wikipedia.app/CreateReadingListViewController.nib/objects-11.0+.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..91fb64a[m
+Binary files /dev/null and b/apks/Wikipedia.app/CreateReadingListViewController.nib/objects-11.0+.nib differ
+[1mdiff --git a/apks/Wikipedia.app/CreateReadingListViewController.nib/runtime.nib b/apks/Wikipedia.app/CreateReadingListViewController.nib/runtime.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..67ab05b[m
+Binary files /dev/null and b/apks/Wikipedia.app/CreateReadingListViewController.nib/runtime.nib differ
+[1mdiff --git a/apks/Wikipedia.app/DebugReadingListsViewController.nib/objects-11.0+.nib b/apks/Wikipedia.app/DebugReadingListsViewController.nib/objects-11.0+.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..30332e4[m
+Binary files /dev/null and b/apks/Wikipedia.app/DebugReadingListsViewController.nib/objects-11.0+.nib differ
+[1mdiff --git a/apks/Wikipedia.app/DebugReadingListsViewController.nib/runtime.nib b/apks/Wikipedia.app/DebugReadingListsViewController.nib/runtime.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..c671f0f[m
+Binary files /dev/null and b/apks/Wikipedia.app/DebugReadingListsViewController.nib/runtime.nib differ
+[1mdiff --git a/apks/Wikipedia.app/EditSummaryViewController.storyboardc/EditSummaryViewController.nib b/apks/Wikipedia.app/EditSummaryViewController.storyboardc/EditSummaryViewController.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..267775f[m
+Binary files /dev/null and b/apks/Wikipedia.app/EditSummaryViewController.storyboardc/EditSummaryViewController.nib differ
+[1mdiff --git a/apks/Wikipedia.app/EditSummaryViewController.storyboardc/Info.plist b/apks/Wikipedia.app/EditSummaryViewController.storyboardc/Info.plist[m
+[1mnew file mode 100755[m
+[1mindex 0000000..c23c446[m
+Binary files /dev/null and b/apks/Wikipedia.app/EditSummaryViewController.storyboardc/Info.plist differ
+[1mdiff --git a/apks/Wikipedia.app/EditSummaryViewController.storyboardc/rJv-oV-2mv-view-fDF-LW-sbk.nib b/apks/Wikipedia.app/EditSummaryViewController.storyboardc/rJv-oV-2mv-view-fDF-LW-sbk.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..227af27[m
+Binary files /dev/null and b/apks/Wikipedia.app/EditSummaryViewController.storyboardc/rJv-oV-2mv-view-fDF-LW-sbk.nib differ
+[1mdiff --git a/apks/Wikipedia.app/EraseSavedArticlesView.nib b/apks/Wikipedia.app/EraseSavedArticlesView.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..0aadc03[m
+Binary files /dev/null and b/apks/Wikipedia.app/EraseSavedArticlesView.nib differ
+[1mdiff --git a/apks/Wikipedia.app/FontSizeSliderViewController.nib b/apks/Wikipedia.app/FontSizeSliderViewController.nib[m
+[1mnew file mode 100755[m
+[1mindex 0000000..fcd0b37[m
+Binary files /dev/null and b/apks/Wikipedia.app/FontSizeSliderViewController.nib differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/AFNetworking.framework/AFNetworking b/apks/Wikipedia.app/Frameworks/AFNetworking.framework/AFNetworking[m
+[1mnew file mode 100755[m
+[1mindex 0000000..0fba9f9[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/AFNetworking.framework/AFNetworking differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/AFNetworking.framework/Info.plist b/apks/Wikipedia.app/Frameworks/AFNetworking.framework/Info.plist[m
+[1mnew file mode 100755[m
+[1mindex 0000000..474f7cd[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/AFNetworking.framework/Info.plist differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources b/apks/Wikipedia.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources[m
+[1mnew file mode 100755[m
+[1mindex 0000000..bd56733[m
+[1m--- /dev/null[m
+[1m+++ b/apks/Wikipedia.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources[m
+[36m@@ -0,0 +1,120 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m[41m[m
+[32m+[m[32m<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">[m[41m[m
+[32m+[m[32m<plist version="1.0">[m[41m[m
+[32m+[m[32m<dict>[m[41m[m
+[32m+[m	[32m<key>files</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>Info.plist</key>[m[41m[m
+[32m+[m		[32m<data>[m[41m[m
+[32m+[m		[32mbPahDAf8joO6j2X0DtFzHPFjZCI=[m[41m[m
+[32m+[m		[32m</data>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m	[32m<key>files2</key>[m[41m[m
+[32m+[m	[32m<dict/>[m[41m[m
+[32m+[m	[32m<key>rules</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>^</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>optional</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/locversion.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1100</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Base\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1010</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^version.plist$</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m	[32m<key>rules2</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>.*\.dSYM($|/)</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>11</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^(.*/)?\.DS_Store$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>2000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>nested</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>10</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>optional</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/locversion.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1100</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Base\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1010</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Info\.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^PkgInfo$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^[^/]+$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>nested</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>10</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^embedded\.provisionprofile$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^version\.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m[32m</dict>[m[41m[m
+[32m+[m[32m</plist>[m[41m[m
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack b/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack[m
+[1mnew file mode 100755[m
+[1mindex 0000000..a51e48a[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/CocoaLumberjack differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/Info.plist b/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/Info.plist[m
+[1mnew file mode 100755[m
+[1mindex 0000000..901915a[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/Info.plist differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/_CodeSignature/CodeResources b/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/_CodeSignature/CodeResources[m
+[1mnew file mode 100755[m
+[1mindex 0000000..8be642c[m
+[1m--- /dev/null[m
+[1m+++ b/apks/Wikipedia.app/Frameworks/CocoaLumberjack.framework/_CodeSignature/CodeResources[m
+[36m@@ -0,0 +1,120 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m[41m[m
+[32m+[m[32m<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">[m[41m[m
+[32m+[m[32m<plist version="1.0">[m[41m[m
+[32m+[m[32m<dict>[m[41m[m
+[32m+[m	[32m<key>files</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>Info.plist</key>[m[41m[m
+[32m+[m		[32m<data>[m[41m[m
+[32m+[m		[32mzNzavQHNzlRulx6RV34MpeAaBJc=[m[41m[m
+[32m+[m		[32m</data>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m	[32m<key>files2</key>[m[41m[m
+[32m+[m	[32m<dict/>[m[41m[m
+[32m+[m	[32m<key>rules</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>^</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>optional</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/locversion.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1100</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Base\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1010</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^version.plist$</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m	[32m<key>rules2</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>.*\.dSYM($|/)</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>11</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^(.*/)?\.DS_Store$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>2000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>nested</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>10</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>optional</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/locversion.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1100</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Base\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1010</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Info\.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^PkgInfo$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^[^/]+$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>nested</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>10</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^embedded\.provisionprofile$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^version\.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m[32m</dict>[m[41m[m
+[32m+[m[32m</plist>[m[41m[m
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift b/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift[m
+[1mnew file mode 100755[m
+[1mindex 0000000..742b51b[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/CocoaLumberjackSwift differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/Info.plist b/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/Info.plist[m
+[1mnew file mode 100755[m
+[1mindex 0000000..27eef65[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/Info.plist differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/_CodeSignature/CodeResources b/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/_CodeSignature/CodeResources[m
+[1mnew file mode 100755[m
+[1mindex 0000000..c89db1a[m
+[1m--- /dev/null[m
+[1m+++ b/apks/Wikipedia.app/Frameworks/CocoaLumberjackSwift.framework/_CodeSignature/CodeResources[m
+[36m@@ -0,0 +1,120 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m[41m[m
+[32m+[m[32m<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">[m[41m[m
+[32m+[m[32m<plist version="1.0">[m[41m[m
+[32m+[m[32m<dict>[m[41m[m
+[32m+[m	[32m<key>files</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>Info.plist</key>[m[41m[m
+[32m+[m		[32m<data>[m[41m[m
+[32m+[m		[32mnKem9BDsfFFse8E0xqUw/nYYnEo=[m[41m[m
+[32m+[m		[32m</data>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m	[32m<key>files2</key>[m[41m[m
+[32m+[m	[32m<dict/>[m[41m[m
+[32m+[m	[32m<key>rules</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>^</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>optional</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/locversion.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1100</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Base\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1010</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^version.plist$</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m	[32m<key>rules2</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>.*\.dSYM($|/)</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>11</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^(.*/)?\.DS_Store$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>2000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>nested</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>10</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>optional</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/locversion.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1100</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Base\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1010</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Info\.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^PkgInfo$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^[^/]+$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>nested</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>10</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^embedded\.provisionprofile$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^version\.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m[32m</dict>[m[41m[m
+[32m+[m[32m</plist>[m[41m[m
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/FLAnimatedImage b/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/FLAnimatedImage[m
+[1mnew file mode 100755[m
+[1mindex 0000000..c7546ba[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/FLAnimatedImage differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/Info.plist b/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/Info.plist[m
+[1mnew file mode 100755[m
+[1mindex 0000000..ab8b567[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/Info.plist differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/_CodeSignature/CodeResources b/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/_CodeSignature/CodeResources[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e32ee0b[m
+[1m--- /dev/null[m
+[1m+++ b/apks/Wikipedia.app/Frameworks/FLAnimatedImage.framework/_CodeSignature/CodeResources[m
+[36m@@ -0,0 +1,120 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m[41m[m
+[32m+[m[32m<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">[m[41m[m
+[32m+[m[32m<plist version="1.0">[m[41m[m
+[32m+[m[32m<dict>[m[41m[m
+[32m+[m	[32m<key>files</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>Info.plist</key>[m[41m[m
+[32m+[m		[32m<data>[m[41m[m
+[32m+[m		[32myATDfhA8bOrv6vOY+jhbhAPIOIw=[m[41m[m
+[32m+[m		[32m</data>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m	[32m<key>files2</key>[m[41m[m
+[32m+[m	[32m<dict/>[m[41m[m
+[32m+[m	[32m<key>rules</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>^</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>optional</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/locversion.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1100</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Base\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1010</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^version.plist$</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m	[32m<key>rules2</key>[m[41m[m
+[32m+[m	[32m<dict>[m[41m[m
+[32m+[m		[32m<key>.*\.dSYM($|/)</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>11</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^(.*/)?\.DS_Store$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>2000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>nested</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>10</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*</key>[m[41m[m
+[32m+[m		[32m<true/>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>optional</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1000</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^.*\.lproj/locversion.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1100</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Base\.lproj/</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>1010</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^Info\.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^PkgInfo$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>omit</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^[^/]+$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>nested</key>[m[41m[m
+[32m+[m			[32m<true/>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>10</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^embedded\.provisionprofile$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m		[32m<key>^version\.plist$</key>[m[41m[m
+[32m+[m		[32m<dict>[m[41m[m
+[32m+[m			[32m<key>weight</key>[m[41m[m
+[32m+[m			[32m<real>20</real>[m[41m[m
+[32m+[m		[32m</dict>[m[41m[m
+[32m+[m	[32m</dict>[m[41m[m
+[32m+[m[32m</dict>[m[41m[m
+[32m+[m[32m</plist>[m[41m[m
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebServers b/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebServers[m
+[1mnew file mode 100755[m
+[1mindex 0000000..b473461[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebServers differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Info.plist b/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Info.plist[m
+[1mnew file mode 100755[m
+[1mindex 0000000..e25dc75[m
+Binary files /dev/null and b/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Info.plist differ
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css b/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css[m
+[1mnew file mode 100755[m
+[1mindex 0000000..a031303[m
+[1m--- /dev/null[m
+[1m+++ b/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css[m
+[36m@@ -0,0 +1,347 @@[m
+[32m+[m[32m/*![m[41m[m
+[32m+[m[32m * Bootstrap v3.1.1 (http://getbootstrap.com)[m[41m[m
+[32m+[m[32m * Copyright 2011-2014 Twitter, Inc.[m[41m[m
+[32m+[m[32m * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)[m[41m[m
+[32m+[m[32m */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m.btn-default,[m[41m[m
+[32m+[m[32m.btn-primary,[m[41m[m
+[32m+[m[32m.btn-success,[m[41m[m
+[32m+[m[32m.btn-info,[m[41m[m
+[32m+[m[32m.btn-warning,[m[41m[m
+[32m+[m[32m.btn-danger {[m[41m[m
+[32m+[m[32m  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-default:active,[m[41m[m
+[32m+[m[32m.btn-primary:active,[m[41m[m
+[32m+[m[32m.btn-success:active,[m[41m[m
+[32m+[m[32m.btn-info:active,[m[41m[m
+[32m+[m[32m.btn-warning:active,[m[41m[m
+[32m+[m[32m.btn-danger:active,[m[41m[m
+[32m+[m[32m.btn-default.active,[m[41m[m
+[32m+[m[32m.btn-primary.active,[m[41m[m
+[32m+[m[32m.btn-success.active,[m[41m[m
+[32m+[m[32m.btn-info.active,[m[41m[m
+[32m+[m[32m.btn-warning.active,[m[41m[m
+[32m+[m[32m.btn-danger.active {[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);[m[41m[m
+[32m+[m[32m          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn:active,[m[41m[m
+[32m+[m[32m.btn.active {[m[41m[m
+[32m+[m[32m  background-image: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-default {[m[41m[m
+[32m+[m[32m  text-shadow: 0 1px 0 #fff;[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #fff 0%, #e0e0e0 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #dbdbdb;[m[41m[m
+[32m+[m[32m  border-color: #ccc;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-default:hover,[m[41m[m
+[32m+[m[32m.btn-default:focus {[m[41m[m
+[32m+[m[32m  background-color: #e0e0e0;[m[41m[m
+[32m+[m[32m  background-position: 0 -15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-default:active,[m[41m[m
+[32m+[m[32m.btn-default.active {[m[41m[m
+[32m+[m[32m  background-color: #e0e0e0;[m[41m[m
+[32m+[m[32m  border-color: #dbdbdb;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-primary {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #428bca 0%, #2d6ca2 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #428bca 0%, #2d6ca2 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #2b669a;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-primary:hover,[m[41m[m
+[32m+[m[32m.btn-primary:focus {[m[41m[m
+[32m+[m[32m  background-color: #2d6ca2;[m[41m[m
+[32m+[m[32m  background-position: 0 -15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-primary:active,[m[41m[m
+[32m+[m[32m.btn-primary.active {[m[41m[m
+[32m+[m[32m  background-color: #2d6ca2;[m[41m[m
+[32m+[m[32m  border-color: #2b669a;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-success {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #5cb85c 0%, #419641 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #3e8f3e;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-success:hover,[m[41m[m
+[32m+[m[32m.btn-success:focus {[m[41m[m
+[32m+[m[32m  background-color: #419641;[m[41m[m
+[32m+[m[32m  background-position: 0 -15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-success:active,[m[41m[m
+[32m+[m[32m.btn-success.active {[m[41m[m
+[32m+[m[32m  background-color: #419641;[m[41m[m
+[32m+[m[32m  border-color: #3e8f3e;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-info {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #2aabd2 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #5bc0de 0%, #2aabd2 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #28a4c9;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-info:hover,[m[41m[m
+[32m+[m[32m.btn-info:focus {[m[41m[m
+[32m+[m[32m  background-color: #2aabd2;[m[41m[m
+[32m+[m[32m  background-position: 0 -15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-info:active,[m[41m[m
+[32m+[m[32m.btn-info.active {[m[41m[m
+[32m+[m[32m  background-color: #2aabd2;[m[41m[m
+[32m+[m[32m  border-color: #28a4c9;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-warning {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #eb9316 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #f0ad4e 0%, #eb9316 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #e38d13;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-warning:hover,[m[41m[m
+[32m+[m[32m.btn-warning:focus {[m[41m[m
+[32m+[m[32m  background-color: #eb9316;[m[41m[m
+[32m+[m[32m  background-position: 0 -15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-warning:active,[m[41m[m
+[32m+[m[32m.btn-warning.active {[m[41m[m
+[32m+[m[32m  background-color: #eb9316;[m[41m[m
+[32m+[m[32m  border-color: #e38d13;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-danger {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #b92c28;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-danger:hover,[m[41m[m
+[32m+[m[32m.btn-danger:focus {[m[41m[m
+[32m+[m[32m  background-color: #c12e2a;[m[41m[m
+[32m+[m[32m  background-position: 0 -15px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.btn-danger:active,[m[41m[m
+[32m+[m[32m.btn-danger.active {[m[41m[m
+[32m+[m[32m  background-color: #c12e2a;[m[41m[m
+[32m+[m[32m  border-color: #b92c28;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.thumbnail,[m[41m[m
+[32m+[m[32m.img-thumbnail {[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m          box-shadow: 0 1px 2px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.dropdown-menu > li > a:hover,[m[41m[m
+[32m+[m[32m.dropdown-menu > li > a:focus {[m[41m[m
+[32m+[m[32m  background-color: #e8e8e8;[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.dropdown-menu > .active > a,[m[41m[m
+[32m+[m[32m.dropdown-menu > .active > a:hover,[m[41m[m
+[32m+[m[32m.dropdown-menu > .active > a:focus {[m[41m[m
+[32m+[m[32m  background-color: #357ebd;[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #428bca 0%, #357ebd 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #428bca 0%, #357ebd 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.navbar-default {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #fff 0%, #f8f8f8 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #fff 0%, #f8f8f8 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-radius: 4px;[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.navbar-default .navbar-nav > .active > a {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f3f3f3 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #ebebeb 0%, #f3f3f3 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff3f3f3', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.navbar-brand,[m[41m[m
+[32m+[m[32m.navbar-nav > li > a {[m[41m[m
+[32m+[m[32m  text-shadow: 0 1px 0 rgba(255, 255, 255, .25);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.navbar-inverse {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.navbar-inverse .navbar-nav > .active > a {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #222 0%, #282828 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #222 0%, #282828 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff282828', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);[m[41m[m
+[32m+[m[32m          box-shadow: inset 0 3px 9px rgba(0, 0, 0, .25);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.navbar-inverse .navbar-brand,[m[41m[m
+[32m+[m[32m.navbar-inverse .navbar-nav > li > a {[m[41m[m
+[32m+[m[32m  text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.navbar-static-top,[m[41m[m
+[32m+[m[32m.navbar-fixed-top,[m[41m[m
+[32m+[m[32m.navbar-fixed-bottom {[m[41m[m
+[32m+[m[32m  border-radius: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.alert {[m[41m[m
+[32m+[m[32m  text-shadow: 0 1px 0 rgba(255, 255, 255, .2);[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);[m[41m[m
+[32m+[m[32m          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 2px rgba(0, 0, 0, .05);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.alert-success {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #dff0d8 0%, #c8e5bc 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #b2dba1;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.alert-info {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #b9def0 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #d9edf7 0%, #b9def0 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffb9def0', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #9acfea;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.alert-warning {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #fcf8e3 0%, #f8efc0 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fff8efc0', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #f5e79e;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.alert-danger {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #f2dede 0%, #e7c3c3 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #dca7a7;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.progress {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #ebebeb 0%, #f5f5f5 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #ebebeb 0%, #f5f5f5 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.progress-bar {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #428bca 0%, #3071a9 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #428bca 0%, #3071a9 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff3071a9', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.progress-bar-success {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #5cb85c 0%, #449d44 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #5cb85c 0%, #449d44 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff449d44', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.progress-bar-info {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #5bc0de 0%, #31b0d5 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff31b0d5', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.progress-bar-warning {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #f0ad4e 0%, #ec971f 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #f0ad4e 0%, #ec971f 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffec971f', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.progress-bar-danger {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #d9534f 0%, #c9302c 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #d9534f 0%, #c9302c 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc9302c', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.list-group {[m[41m[m
+[32m+[m[32m  border-radius: 4px;[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m          box-shadow: 0 1px 2px rgba(0, 0, 0, .075);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.list-group-item.active,[m[41m[m
+[32m+[m[32m.list-group-item.active:hover,[m[41m[m
+[32m+[m[32m.list-group-item.active:focus {[m[41m[m
+[32m+[m[32m  text-shadow: 0 -1px 0 #3071a9;[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #428bca 0%, #3278b3 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #428bca 0%, #3278b3 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff3278b3', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #3278b3;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.panel {[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .05);[m[41m[m
+[32m+[m[32m          box-shadow: 0 1px 2px rgba(0, 0, 0, .05);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.panel-default > .panel-heading {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.panel-primary > .panel-heading {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #428bca 0%, #357ebd 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #428bca 0%, #357ebd 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.panel-success > .panel-heading {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #dff0d8 0%, #d0e9c6 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffd0e9c6', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.panel-info > .panel-heading {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #d9edf7 0%, #c4e3f3 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffc4e3f3', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.panel-warning > .panel-heading {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #fcf8e3 0%, #faf2cc 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fffaf2cc', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.panel-danger > .panel-heading {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #f2dede 0%, #ebcccc 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #f2dede 0%, #ebcccc 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffebcccc', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m.well {[m[41m[m
+[32m+[m[32m  background-image: -webkit-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);[m[41m[m
+[32m+[m[32m  background-image:         linear-gradient(to bottom, #e8e8e8 0%, #f5f5f5 100%);[m[41m[m
+[32m+[m[32m  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e8e8', endColorstr='#fff5f5f5', GradientType=0);[m[41m[m
+[32m+[m[32m  background-repeat: repeat-x;[m[41m[m
+[32m+[m[32m  border-color: #dcdcdc;[m[41m[m
+[32m+[m[32m  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);[m[41m[m
+[32m+[m[32m          box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m/*# sourceMappingURL=bootstrap-theme.css.map */[m[41m[m
+[1mdiff --git a/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css b/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css[m
+[1mnew file mode 100755[m
+[1mindex 0000000..955ef49[m
+[1m--- /dev/null[m
+[1m+++ b/apks/Wikipedia.app/Frameworks/GCDWebServers.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css[m
+[36m@@ -0,0 +1,5785 @@[m
+[32m+[m[32m/*![m[41m[m
+[32m+[m[32m * Bootstrap v3.1.1 (http://getbootstrap.com)[m[41m[m
+[32m+[m[32m * Copyright 2011-2014 Twitter, Inc.[m[41m[m
+[32m+[m[32m * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)[m[41m[m
+[32m+[m[32m */[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m/*! normalize.css v3.0.0 | MIT License | git.io/normalize */[m[41m[m
+[32m+[m[32mhtml {[m[41m[m
+[32m+[m[32m  font-family: sans-serif;[m[41m[m
+[32m+[m[32m  -webkit-text-size-adjust: 100%;[m[41m[m
+[32m+[m[32m      -ms-text-size-adjust: 100%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mbody {[m[41m[m
+[32m+[m[32m  margin: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32marticle,[m[41m[m
+[32m+[m[32maside,[m[41m[m
+[32m+[m[32mdetails,[m[41m[m
+[32m+[m[32mfigcaption,[m[41m[m
+[32m+[m[32mfigure,[m[41m[m
+[32m+[m[32mfooter,[m[41m[m
+[32m+[m[32mheader,[m[41m[m
+[32m+[m[32mhgroup,[m[41m[m
+[32m+[m[32mmain,[m[41m[m
+[32m+[m[32mnav,[m[41m[m
+[32m+[m[32msection,[m[41m[m
+[32m+[m[32msummary {[m[41m[m
+[32m+[m[32m  display: block;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32maudio,[m[41m[m
+[32m+[m[32mcanvas,[m[41m[m
+[32m+[m[32mprogress,[m[41m[m
+[32m+[m[32mvideo {[m[41m[m
+[32m+[m[32m  display: inline-block;[m[41m[m
+[32m+[m[32m  vertical-align: baseline;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32maudio:not([controls]) {[m[41m[m
+[32m+[m[32m  display: none;[m[41m[m
+[32m+[m[32m  height: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m[hidden],[m[41m[m
+[32m+[m[32mtemplate {[m[41m[m
+[32m+[m[32m  display: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32ma {[m[41m[m
+[32m+[m[32m  background: transparent;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32ma:active,[m[41m[m
+[32m+[m[32ma:hover {[m[41m[m
+[32m+[m[32m  outline: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mabbr[title] {[m[41m[m
+[32m+[m[32m  border-bottom: 1px dotted;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mb,[m[41m[m
+[32m+[m[32mstrong {[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mdfn {[m[41m[m
+[32m+[m[32m  font-style: italic;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mh1 {[m[41m[m
+[32m+[m[32m  margin: .67em 0;[m[41m[m
+[32m+[m[32m  font-size: 2em;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mmark {[m[41m[m
+[32m+[m[32m  color: #000;[m[41m[m
+[32m+[m[32m  background: #ff0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32msmall {[m[41m[m
+[32m+[m[32m  font-size: 80%;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32msub,[m[41m[m
+[32m+[m[32msup {[m[41m[m
+[32m+[m[32m  position: relative;[m[41m[m
+[32m+[m[32m  font-size: 75%;[m[41m[m
+[32m+[m[32m  line-height: 0;[m[41m[m
+[32m+[m[32m  vertical-align: baseline;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32msup {[m[41m[m
+[32m+[m[32m  top: -.5em;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32msub {[m[41m[m
+[32m+[m[32m  bottom: -.25em;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mimg {[m[41m[m
+[32m+[m[32m  border: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32msvg:not(:root) {[m[41m[m
+[32m+[m[32m  overflow: hidden;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mfigure {[m[41m[m
+[32m+[m[32m  margin: 1em 40px;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mhr {[m[41m[m
+[32m+[m[32m  height: 0;[m[41m[m
+[32m+[m[32m  -moz-box-sizing: content-box;[m[41m[m
+[32m+[m[32m       box-sizing: content-box;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mpre {[m[41m[m
+[32m+[m[32m  overflow: auto;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mcode,[m[41m[m
+[32m+[m[32mkbd,[m[41m[m
+[32m+[m[32mpre,[m[41m[m
+[32m+[m[32msamp {[m[41m[m
+[32m+[m[32m  font-family: monospace, monospace;[m[41m[m
+[32m+[m[32m  font-size: 1em;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mbutton,[m[41m[m
+[32m+[m[32minput,[m[41m[m
+[32m+[m[32moptgroup,[m[41m[m
+[32m+[m[32mselect,[m[41m[m
+[32m+[m[32mtextarea {[m[41m[m
+[32m+[m[32m  margin: 0;[m[41m[m
+[32m+[m[32m  font: inherit;[m[41m[m
+[32m+[m[32m  color: inherit;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mbutton {[m[41m[m
+[32m+[m[32m  overflow: visible;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mbutton,[m[41m[m
+[32m+[m[32mselect {[m[41m[m
+[32m+[m[32m  text-transform: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mbutton,[m[41m[m
+[32m+[m[32mhtml input[type="button"],[m[41m[m
+[32m+[m[32minput[type="reset"],[m[41m[m
+[32m+[m[32minput[type="submit"] {[m[41m[m
+[32m+[m[32m  -webkit-appearance: button;[m[41m[m
+[32m+[m[32m  cursor: pointer;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mbutton[disabled],[m[41m[m
+[32m+[m[32mhtml input[disabled] {[m[41m[m
+[32m+[m[32m  cursor: default;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mbutton::-moz-focus-inner,[m[41m[m
+[32m+[m[32minput::-moz-focus-inner {[m[41m[m
+[32m+[m[32m  padding: 0;[m[41m[m
+[32m+[m[32m  border: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32minput {[m[41m[m
+[32m+[m[32m  line-height: normal;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32minput[type="checkbox"],[m[41m[m
+[32m+[m[32minput[type="radio"] {[m[41m[m
+[32m+[m[32m  box-sizing: border-box;[m[41m[m
+[32m+[m[32m  padding: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32minput[type="number"]::-webkit-inner-spin-button,[m[41m[m
+[32m+[m[32minput[type="number"]::-webkit-outer-spin-button {[m[41m[m
+[32m+[m[32m  height: auto;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32minput[type="search"] {[m[41m[m
+[32m+[m[32m  -webkit-box-sizing: content-box;[m[41m[m
+[32m+[m[32m     -moz-box-sizing: content-box;[m[41m[m
+[32m+[m[32m          box-sizing: content-box;[m[41m[m
+[32m+[m[32m  -webkit-appearance: textfield;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32minput[type="search"]::-webkit-search-cancel-button,[m[41m[m
+[32m+[m[32minput[type="search"]::-webkit-search-decoration {[m[41m[m
+[32m+[m[32m  -webkit-appearance: none;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mfieldset {[m[41m[m
+[32m+[m[32m  padding: .35em .625em .75em;[m[41m[m
+[32m+[m[32m  margin: 0 2px;[m[41m[m
+[32m+[m[32m  border: 1px solid #c0c0c0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mlegend {[m[41m[m
+[32m+[m[32m  padding: 0;[m[41m[m
+[32m+[m[32m  border: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mtextarea {[m[41m[m
+[32m+[m[32m  overflow: auto;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32moptgroup {[m[41m[m
+[32m+[m[32m  font-weight: bold;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mtable {[m[41m[m
+[32m+[m[32m  border-spacing: 0;[m[41m[m
+[32m+[m[32m  border-collapse: collapse;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32mtd,[m[41m[m
+[32m+[m[32mth {[m[41m[m
+[32m+[m[32m  padding: 0;[m[41m[m
+[32m+[m[32m}[m[41m[m
+[32m+[m[32m@media print {[m[41m[m
+[32m+[m[32m  * {[m[41m[m
+[32m+[m[32m    color: #000 !important;[m[41m[m
+[32m+[m[32m    text-shadow: none !important;[m[41m[m
+[32m+[m[32m    background: transparent !important;[m[41m[m
+[32m+[m[32m    box-shadow: none !important;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m  a,[m[41m[m
+[32m+[m[32m  a:visited {[m[41m[m
+[32m+[m[32m    text-decoration: underline;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m  a[href]:after {[m[41m[m
+[32m+[m[32m    content: " (" attr(href) ")";[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m  abbr[title]:after {[m[41m[m
+[32m+[m[32m    content: " (" attr(title) ")";[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m  a[href^="javascript:"]:after,[m[41m[m
+[32m+[m[32m  a[href^="#"]:after {[m[41m[m
+[32m+[m[32m    content: "";[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m  pre,[m[41m[m
+[32m+[m[32m  blockquote {[m[41m[m
+[32m+[m[32m    border: 1px solid #999;[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m    page-break-inside: avoid;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m  thead {[m[41m[m
+[32m+[m[32m    display: table-header-group;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m  tr,[m[41m[m
+[32m+[m[32m  img {[m[41m[m
+[32m+[m[32m    page-break-inside: avoid;[m[41m[m
+[32m+[m[32m  }[m[41m[m
+[32m+[m[32m  img {[m[41m[m
+[32m+[m[32m    max-width: 100% !important;[m[41m[m
+[32m+[m[32m  }[m[
